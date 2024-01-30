@@ -11,4 +11,4 @@ storage/encrypt_public.pem
 .env
 go.mod
 go.sum
-gta-api
+go-api

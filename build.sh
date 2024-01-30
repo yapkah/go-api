@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file_path="$HOME/gta-api"
+file_path="$HOME/go-api"
 
 # make file if not exists
 if [ ! -d "$file_path" ]; then
