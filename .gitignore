@@ -1,0 +1,14 @@
+.idea/
+.DS_Store
+conf/app.ini
+runtime/logs
+storage/private.pem
+storage/public.pem
+storage/bc_admin_private.pem
+storage/bc_admin_public.pem
+storage/encrypt_private.pem
+storage/encrypt_public.pem
+.env
+go.mod
+go.sum
+gta-api

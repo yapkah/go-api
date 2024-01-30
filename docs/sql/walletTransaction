@@ -1,0 +1,87 @@
+-- phpMyAdmin SQL Dump
+-- version 4.9.0.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost:8889
+-- Generation Time: May 21, 2020 at 07:09 AM
+-- Server version: 5.7.26
+-- PHP Version: 7.3.8
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `ipw_local`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ewt_wallet_transaction`
+--
+
+CREATE TABLE `ewt_wallet_transaction` (
+  `id` bigint(20) NOT NULL,
+  `sub_id` varchar(50) DEFAULT NULL,
+  `member_id` varchar(50) NOT NULL,
+  `ewallet_type_id` varchar(15) NOT NULL,
+  `doc_no` varchar(25) NOT NULL,
+  `transaction_type` varchar(50) NOT NULL,
+  `status` varchar(5) NOT NULL DEFAULT 'A',
+  `currency` varchar(50) DEFAULT NULL,
+  `currency_rate` decimal(25,2) DEFAULT NULL,
+  `amount` decimal(25,13) DEFAULT NULL,
+  `amount_from` decimal(25,13) DEFAULT NULL,
+  `amount_to` decimal(25,13) DEFAULT NULL,
+  `admin_fee` int(11) DEFAULT '0',
+  `dt_effective_date` datetime NOT NULL,
+  `price` decimal(18,10) DEFAULT NULL,
+  `admin_remark` varchar(255) DEFAULT NULL,
+  `user_remark` varchar(255) DEFAULT NULL,
+  `wallet_id_from` varchar(50) DEFAULT NULL,
+  `wallet_id_to` varchar(50) DEFAULT NULL,
+  `wallet_type_from` varchar(15) DEFAULT NULL,
+  `wallet_type_to` varchar(15) DEFAULT NULL,
+  `visible` tinyint(1) DEFAULT '1',
+  `created_by` varchar(50) NOT NULL,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_by` varchar(50) NOT NULL,
+  `updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `pending_by` varchar(50) DEFAULT NULL,
+  `dt_pending` datetime DEFAULT NULL,
+  `dt_process` datetime DEFAULT NULL,
+  `process_by` varchar(50) DEFAULT NULL,
+  `approved_by` varchar(50) DEFAULT NULL,
+  `dt_approved` datetime DEFAULT NULL,
+  `reject_by` varchar(50) DEFAULT NULL,
+  `dt_reject` datetime DEFAULT NULL,
+  `cancel_by` varchar(50) DEFAULT NULL,
+  `dt_cancel` datetime DEFAULT NULL,
+  `void_by` varchar(50) DEFAULT NULL,
+  `dt_void` datetime DEFAULT NULL,
+  `rollback_by` varchar(50) DEFAULT NULL,
+  `dt_rollback` datetime DEFAULT NULL) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `ewt_wallet_transaction`
+--
+ALTER TABLE `ewt_wallet_transaction`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `s_doc_no` (`doc_no`),
+  ADD KEY `balance` (`member_id`,`ewallet_type_id`,`dt_effective_date`,`status`) USING BTREE,
+  ADD KEY `rollback` (`doc_no`,`member_id`) USING BTREE,
+  ADD KEY `statement` (`member_id`,`visible`,`created_at`,`ewallet_type_id`,`status`,`transaction_type`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `ewt_wallet_transaction`
+--
+ALTER TABLE `ewt_wallet_transaction`
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;

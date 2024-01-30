@@ -1,0 +1,16 @@
+{{define "content"}}
+{{$localizer := .localizer}}
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="bodycopy">
+      <div>
+        <p>{{$localizer.Trans "dear_user" nil}},</p>
+        <p>{{$localizer.Trans "here_is_the_code_to_change_your_login_credentials" nil}}:</p>
+        <p>{{.otp_code}}</p>
+        <br/>
+        <p>{{$localizer.Trans "thank_you" nil}}</p>
+      </div>
+    </td>
+  </tr>
+</table>
+{{end}}

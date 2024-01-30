@@ -1,0 +1,16 @@
+{{define "content"}}
+{{$localizer := .localizer}}
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="bodycopy">
+      <div>
+        <p>{{$localizer.Trans "welcome_to_slot_game" nil}}</p>
+        <p>{{$localizer.Trans "to_activate_your_slot_game_account_please_click_the_link_below" nil}}:</p>
+        <p><a href="{{.activation_link}}" >{{$localizer.Trans "activation_link" nil}}</a></p>
+        <br/>
+        <p>{{$localizer.Trans "thank_you" nil}}</p>
+      </div>
+    </td>
+  </tr>
+</table>
+{{end}}

@@ -1,0 +1,17 @@
+{{define "content"}}
+{{$localizer := .localizer}}
+<table width="100%" border="0" cellspacing="0" cellpadding="0"  style="max-width: 425px">
+  <tr>
+    <td class="bodycopy">
+      <div>
+        <p>{{$localizer.Trans "dear_user" nil}},</p>
+        <p>{{$localizer.Trans "you_are_receiving_this_message_following_your_request_to_verify_your_new_email" nil}}</p>
+        <p>{{$localizer.Trans "if_you_made_this_request_please_enter_otp_code_on_email_verification_page" nil}}</p>
+        <p>{{.otp_code}}</p>
+        <br/>
+        <p>{{$localizer.Trans "thank_you" nil}}</p>
+      </div>
+    </td>
+  </tr>
+</table>
+{{end}}
