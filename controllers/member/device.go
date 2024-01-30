@@ -5,8 +5,8 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/smartblock/gta-api/models"
-	"github.com/smartblock/gta-api/pkg/app"
+	"github.com/yapkah/go-api/models"
+	"github.com/yapkah/go-api/pkg/app"
 )
 
 // UpdateDeviceInfoForm struct

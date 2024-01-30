@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/smartblock/gta-api/pkg/e"
+	"github.com/yapkah/go-api/pkg/e"
 )
 
 // BigFloat struct

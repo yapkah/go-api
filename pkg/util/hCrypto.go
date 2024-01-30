@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"unicode/utf8"
 
-	"github.com/smartblock/gta-api/pkg/base"
-	"github.com/smartblock/gta-api/pkg/setting"
+	"github.com/yapkah/go-api/pkg/base"
+	"github.com/yapkah/go-api/pkg/setting"
 	"golang.org/x/crypto/scrypt"
 )
 

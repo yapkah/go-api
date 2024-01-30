@@ -1,8 +1,8 @@
 FROM golang:latest
 
 ENV GOPROXY https://goproxy.cn,direct
-WORKDIR $GOPATH/src/github.com/smartblock/gta-api
-COPY . $GOPATH/src/github.com/smartblock/gta-api
+WORKDIR $GOPATH/src/github.com/yapkah/go-api
+COPY . $GOPATH/src/github.com/yapkah/go-api
 RUN go build .
 
 EXPOSE 8000

@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/nyaruka/phonenumbers"
-	"github.com/smartblock/gta-api/pkg/e"
+	"github.com/yapkah/go-api/pkg/e"
 )
 
 // ParseMobileNo func

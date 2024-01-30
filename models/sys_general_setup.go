@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/jinzhu/gorm"
-	"github.com/smartblock/gta-api/pkg/e"
-	"github.com/smartblock/gta-api/pkg/setting"
+	"github.com/yapkah/go-api/pkg/e"
+	"github.com/yapkah/go-api/pkg/setting"
 )
 
 // SysGeneralSetup struct

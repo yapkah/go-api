@@ -6,9 +6,9 @@ import (
 	"github.com/boombuler/barcode"
 	"github.com/boombuler/barcode/qr"
 
-	"github.com/smartblock/gta-api/pkg/file"
-	"github.com/smartblock/gta-api/pkg/setting"
-	"github.com/smartblock/gta-api/pkg/util"
+	"github.com/yapkah/go-api/pkg/file"
+	"github.com/yapkah/go-api/pkg/setting"
+	"github.com/yapkah/go-api/pkg/util"
 )
 
 type QrCode struct {

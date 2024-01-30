@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/smartblock/gta-api/helpers"
-	"github.com/smartblock/gta-api/models"
-	"github.com/smartblock/gta-api/pkg/e"
+	"github.com/yapkah/go-api/helpers"
+	"github.com/yapkah/go-api/models"
+	"github.com/yapkah/go-api/pkg/e"
 )
 
 // MemberTreeStruct struct

@@ -3,7 +3,7 @@ package event_service
 import (
 	"encoding/json"
 
-	"github.com/smartblock/gta-api/helpers"
+	"github.com/yapkah/go-api/helpers"
 )
 
 // EventSetup struct

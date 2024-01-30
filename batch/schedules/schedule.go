@@ -3,11 +3,11 @@ package main
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/smartblock/gta-api/models"
-	"github.com/smartblock/gta-api/pkg/gredis"
-	"github.com/smartblock/gta-api/pkg/logging"
-	"github.com/smartblock/gta-api/pkg/setting"
-	schedule "github.com/smartblock/gta-api/schedules"
+	"github.com/yapkah/go-api/models"
+	"github.com/yapkah/go-api/pkg/gredis"
+	"github.com/yapkah/go-api/pkg/logging"
+	"github.com/yapkah/go-api/pkg/setting"
+	schedule "github.com/yapkah/go-api/schedules"
 )
 
 func init() {
@@ -20,9 +20,9 @@ func init() {
 // @title Golang Gin API
 // @version 1.0
 // @description An example of gin
-// @termsOfService https://github.com/smartblock/gta-api
+// @termsOfService https://github.com/yapkah/go-api
 // @license.name MIT
-// @license.url https://github.com/smartblock/gta-api/blob/master/LICENSE
+// @license.url https://github.com/yapkah/go-api/blob/master/LICENSE
 
 // =====================================================
 // SOLVE UNUNTU SERVER CAN'T RUN PROGRAM IN SECOND

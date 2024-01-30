@@ -2,8 +2,8 @@ package v1
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/smartblock/gta-api/controllers/api"
-	middleware "github.com/smartblock/gta-api/middleware/api"
+	"github.com/yapkah/go-api/controllers/api"
+	middleware "github.com/yapkah/go-api/middleware/api"
 )
 
 // Api func

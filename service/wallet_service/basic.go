@@ -1,7 +1,7 @@
 package wallet_service
 
 import (
-	"github.com/smartblock/gta-api/models"
+	"github.com/yapkah/go-api/models"
 )
 
 // AppSettingList struct

@@ -3,7 +3,7 @@ package app
 import (
 	"github.com/astaxie/beego/validation"
 
-	"github.com/smartblock/gta-api/pkg/logging"
+	"github.com/yapkah/go-api/pkg/logging"
 )
 
 // MarkErrors logs error logs

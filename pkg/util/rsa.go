@@ -11,7 +11,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/smartblock/gta-api/pkg/e"
+	"github.com/yapkah/go-api/pkg/e"
 )
 
 // BytesToPrivateKey bytes to private key

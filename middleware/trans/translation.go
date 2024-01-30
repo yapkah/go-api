@@ -2,7 +2,7 @@ package trans
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/smartblock/gta-api/pkg/translation"
+	"github.com/yapkah/go-api/pkg/translation"
 )
 
 // SetLocale func

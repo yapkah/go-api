@@ -3,7 +3,7 @@ package models
 import (
 	"encoding/json"
 
-	"github.com/smartblock/gta-api/pkg/logging"
+	"github.com/yapkah/go-api/pkg/logging"
 )
 
 // SysErrorLog struct

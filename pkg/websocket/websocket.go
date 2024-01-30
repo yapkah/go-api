@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/smartblock/gta-api/pkg/e"
+	"github.com/yapkah/go-api/pkg/e"
 
 	"github.com/gorilla/websocket"
 )

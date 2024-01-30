@@ -6,15 +6,15 @@ import (
 	"unicode/utf8"
 
 	"github.com/gin-gonic/gin"
-	"github.com/smartblock/gta-api/helpers"
-	"github.com/smartblock/gta-api/models"
-	"github.com/smartblock/gta-api/pkg/app"
-	"github.com/smartblock/gta-api/pkg/base"
-	"github.com/smartblock/gta-api/pkg/setting"
-	"github.com/smartblock/gta-api/pkg/util"
-	"github.com/smartblock/gta-api/service/product_service"
-	"github.com/smartblock/gta-api/service/sales_service"
-	"github.com/smartblock/gta-api/service/wallet_service"
+	"github.com/yapkah/go-api/helpers"
+	"github.com/yapkah/go-api/models"
+	"github.com/yapkah/go-api/pkg/app"
+	"github.com/yapkah/go-api/pkg/base"
+	"github.com/yapkah/go-api/pkg/setting"
+	"github.com/yapkah/go-api/pkg/util"
+	"github.com/yapkah/go-api/service/product_service"
+	"github.com/yapkah/go-api/service/sales_service"
+	"github.com/yapkah/go-api/service/wallet_service"
 )
 
 type GetProductsForm struct {

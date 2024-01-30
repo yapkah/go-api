@@ -1,6 +1,6 @@
 package member
 
-// "github.com/smartblock/gta-api/service/notification_service"
+// "github.com/yapkah/go-api/service/notification_service"
 
 // UpdateConnectionForm struct
 // type UpdateConnectionForm struct {

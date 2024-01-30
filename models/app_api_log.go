@@ -3,7 +3,7 @@ package models
 import (
 	"net/http"
 
-	"github.com/smartblock/gta-api/pkg/e"
+	"github.com/yapkah/go-api/pkg/e"
 )
 
 // AppApiLog struct

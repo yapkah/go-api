@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/smartblock/gta-api/models"
+	"github.com/yapkah/go-api/models"
 )
 
 type responseBodyWriter struct {

@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/smartblock/gta-api/helpers"
+	"github.com/yapkah/go-api/helpers"
 )
 
 // p.s. This middleware checking on devices vs acc management

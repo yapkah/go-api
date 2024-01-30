@@ -14,9 +14,9 @@ import (
 	"unicode/utf8"
 
 	"github.com/dustin/go-humanize"
-	"github.com/smartblock/gta-api/models"
-	"github.com/smartblock/gta-api/pkg/float"
-	"github.com/smartblock/gta-api/pkg/setting"
+	"github.com/yapkah/go-api/models"
+	"github.com/yapkah/go-api/pkg/float"
+	"github.com/yapkah/go-api/pkg/setting"
 
 	//"golang.org/x/text/language"
 	//"golang.org/x/text/message"

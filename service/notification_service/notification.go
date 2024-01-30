@@ -3,7 +3,7 @@ package notification_service
 import (
 	"strings"
 
-	"github.com/smartblock/gta-api/helpers"
+	"github.com/yapkah/go-api/helpers"
 )
 
 type MemberNotificationListStruct struct {

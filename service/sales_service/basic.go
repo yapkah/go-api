@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/smartblock/gta-api/helpers"
-	"github.com/smartblock/gta-api/pkg/base"
+	"github.com/yapkah/go-api/helpers"
+	"github.com/yapkah/go-api/pkg/base"
 )
 
 // PrdGroupTypeSetup struct

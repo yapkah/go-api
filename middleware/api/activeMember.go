@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/smartblock/gta-api/models"
+	"github.com/yapkah/go-api/models"
 )
 
 // CheckScopeOr is jwt scope middleware

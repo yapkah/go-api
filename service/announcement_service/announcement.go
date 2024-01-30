@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/smartblock/gta-api/helpers"
-	"github.com/smartblock/gta-api/models"
-	"github.com/smartblock/gta-api/pkg/app"
-	"github.com/smartblock/gta-api/pkg/base"
+	"github.com/yapkah/go-api/helpers"
+	"github.com/yapkah/go-api/models"
+	"github.com/yapkah/go-api/pkg/app"
+	"github.com/yapkah/go-api/pkg/base"
 )
 
 type MemberAnnouncementListStruct struct {

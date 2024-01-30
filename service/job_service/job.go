@@ -1,9 +1,9 @@
 package job_service
 
 import (
-	"github.com/smartblock/gta-api/models"
-	"github.com/smartblock/gta-api/pkg/base"
-	"github.com/smartblock/gta-api/pkg/setting"
+	"github.com/yapkah/go-api/models"
+	"github.com/yapkah/go-api/pkg/base"
+	"github.com/yapkah/go-api/pkg/setting"
 )
 
 // func ProcessTreeQJobService

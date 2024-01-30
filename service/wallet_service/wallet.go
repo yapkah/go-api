@@ -14,15 +14,15 @@ import (
 
 	"github.com/jinzhu/gorm"
 	"github.com/shopspring/decimal"
-	"github.com/smartblock/gta-api/helpers"
-	"github.com/smartblock/gta-api/models"
-	"github.com/smartblock/gta-api/pkg/app"
-	"github.com/smartblock/gta-api/pkg/base"
-	"github.com/smartblock/gta-api/pkg/e"
-	"github.com/smartblock/gta-api/pkg/float"
-	"github.com/smartblock/gta-api/pkg/setting"
-	"github.com/smartblock/gta-api/pkg/util"
-	"github.com/smartblock/gta-api/service/member_service"
+	"github.com/yapkah/go-api/helpers"
+	"github.com/yapkah/go-api/models"
+	"github.com/yapkah/go-api/pkg/app"
+	"github.com/yapkah/go-api/pkg/base"
+	"github.com/yapkah/go-api/pkg/e"
+	"github.com/yapkah/go-api/pkg/float"
+	"github.com/yapkah/go-api/pkg/setting"
+	"github.com/yapkah/go-api/pkg/util"
+	"github.com/yapkah/go-api/service/member_service"
 )
 
 var blockchainBatchLimitApi = 100

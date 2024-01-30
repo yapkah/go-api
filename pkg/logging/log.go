@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/smartblock/gta-api/pkg/file"
+	"github.com/yapkah/go-api/pkg/file"
 )
 
 type Level int

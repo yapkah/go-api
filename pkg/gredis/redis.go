@@ -6,7 +6,7 @@ import (
 
 	"github.com/gomodule/redigo/redis"
 
-	"github.com/smartblock/gta-api/pkg/setting"
+	"github.com/yapkah/go-api/pkg/setting"
 )
 
 var RedisConn *redis.Pool

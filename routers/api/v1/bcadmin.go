@@ -2,7 +2,7 @@ package v1
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/smartblock/gta-api/controllers/bcadmin"
+	"github.com/yapkah/go-api/controllers/bcadmin"
 )
 
 // BCAdmin func

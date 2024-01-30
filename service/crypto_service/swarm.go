@@ -3,7 +3,7 @@ package crypto_service
 import (
 	"strings"
 
-	"github.com/smartblock/gta-api/pkg/base"
+	"github.com/yapkah/go-api/pkg/base"
 )
 
 type HealthApiResponse struct {

@@ -7,7 +7,7 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/jinzhu/gorm"
-	"github.com/smartblock/gta-api/pkg/e"
+	"github.com/yapkah/go-api/pkg/e"
 )
 
 // AccessToken struct

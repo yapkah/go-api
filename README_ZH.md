@@ -1,4 +1,4 @@
-# Go Gin Example [![rcard](https://goreportcard.com/badge/github.com/smartblock/gta-api)](https://goreportcard.com/report/github.com/smartblock/gta-api) [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://godoc.org/github.com/smartblock/gta-api) [![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/EDDYCJY/go-gin-example/master/LICENSE)
+# Go Gin Example [![rcard](https://goreportcard.com/badge/github.com/yapkah/go-api)](https://goreportcard.com/report/github.com/yapkah/go-api) [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://godoc.org/github.com/yapkah/go-api) [![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/EDDYCJY/go-gin-example/master/LICENSE)
 
 `gin` 的一个例子，包含许多有用特性
 
@@ -29,7 +29,7 @@
 ## 安装
 
 ```
-$ go get github.com/smartblock/gta-api
+$ go get github.com/yapkah/go-api
 ```
 
 ## 如何运行
@@ -41,7 +41,7 @@ $ go get github.com/smartblock/gta-api
 
 ### 准备
 
-创建一个 `blog` 数据库，并且导入建表的 [SQL](https://github.com/smartblock/gta-api/blob/master/docs/sql/blog.sql)
+创建一个 `blog` 数据库，并且导入建表的 [SQL](https://github.com/yapkah/go-api/blob/master/docs/sql/blog.sql)
 
 ### 配置
 
@@ -80,17 +80,17 @@ $ go run main.go
  - using env:	export GIN_MODE=release
  - using code:	gin.SetMode(gin.ReleaseMode)
 
-[GIN-debug] GET    /auth                     --> github.com/smartblock/gta-api/routers/api.GetAuth (3 handlers)
-[GIN-debug] GET    /swagger/*any             --> github.com/smartblock/gta-api/vendor/github.com/swaggo/gin-swagger.WrapHandler.func1 (3 handlers)
-[GIN-debug] GET    /api/v1/tags              --> github.com/smartblock/gta-api/routers/api/v1.GetTags (4 handlers)
-[GIN-debug] POST   /api/v1/tags              --> github.com/smartblock/gta-api/routers/api/v1.AddTag (4 handlers)
-[GIN-debug] PUT    /api/v1/tags/:id          --> github.com/smartblock/gta-api/routers/api/v1.EditTag (4 handlers)
-[GIN-debug] DELETE /api/v1/tags/:id          --> github.com/smartblock/gta-api/routers/api/v1.DeleteTag (4 handlers)
-[GIN-debug] GET    /api/v1/articles          --> github.com/smartblock/gta-api/routers/api/v1.GetArticles (4 handlers)
-[GIN-debug] GET    /api/v1/articles/:id      --> github.com/smartblock/gta-api/routers/api/v1.GetArticle (4 handlers)
-[GIN-debug] POST   /api/v1/articles          --> github.com/smartblock/gta-api/routers/api/v1.AddArticle (4 handlers)
-[GIN-debug] PUT    /api/v1/articles/:id      --> github.com/smartblock/gta-api/routers/api/v1.EditArticle (4 handlers)
-[GIN-debug] DELETE /api/v1/articles/:id      --> github.com/smartblock/gta-api/routers/api/v1.DeleteArticle (4 handlers)
+[GIN-debug] GET    /auth                     --> github.com/yapkah/go-api/routers/api.GetAuth (3 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/yapkah/go-api/vendor/github.com/swaggo/gin-swagger.WrapHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/v1/tags              --> github.com/yapkah/go-api/routers/api/v1.GetTags (4 handlers)
+[GIN-debug] POST   /api/v1/tags              --> github.com/yapkah/go-api/routers/api/v1.AddTag (4 handlers)
+[GIN-debug] PUT    /api/v1/tags/:id          --> github.com/yapkah/go-api/routers/api/v1.EditTag (4 handlers)
+[GIN-debug] DELETE /api/v1/tags/:id          --> github.com/yapkah/go-api/routers/api/v1.DeleteTag (4 handlers)
+[GIN-debug] GET    /api/v1/articles          --> github.com/yapkah/go-api/routers/api/v1.GetArticles (4 handlers)
+[GIN-debug] GET    /api/v1/articles/:id      --> github.com/yapkah/go-api/routers/api/v1.GetArticle (4 handlers)
+[GIN-debug] POST   /api/v1/articles          --> github.com/yapkah/go-api/routers/api/v1.AddArticle (4 handlers)
+[GIN-debug] PUT    /api/v1/articles/:id      --> github.com/yapkah/go-api/routers/api/v1.EditArticle (4 handlers)
+[GIN-debug] DELETE /api/v1/articles/:id      --> github.com/yapkah/go-api/routers/api/v1.DeleteArticle (4 handlers)
 
 Listening port is 8000
 Actual pid is 4393

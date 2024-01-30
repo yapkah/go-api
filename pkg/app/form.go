@@ -6,7 +6,7 @@ import (
 
 	"github.com/astaxie/beego/validation"
 	"github.com/gin-gonic/gin"
-	"github.com/smartblock/gta-api/pkg/translation"
+	"github.com/yapkah/go-api/pkg/translation"
 )
 
 // BindAndValid binds and validates data

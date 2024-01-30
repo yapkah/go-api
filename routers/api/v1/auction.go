@@ -2,7 +2,7 @@ package v1
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/smartblock/gta-api/controllers/auction"
+	"github.com/yapkah/go-api/controllers/auction"
 )
 
 // Auction func

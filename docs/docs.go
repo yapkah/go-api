@@ -19,11 +19,11 @@ var doc = `{
     "info": {
         "description": "{{.Description}}",
         "title": "{{.Title}}",
-        "termsOfService": "https://github.com/smartblock/gta-api",
+        "termsOfService": "https://github.com/yapkah/go-api",
         "contact": {},
         "license": {
             "name": "MIT",
-            "url": "https://github.com/smartblock/gta-api/blob/master/LICENSE"
+            "url": "https://github.com/yapkah/go-api/blob/master/LICENSE"
         },
         "version": "{{.Version}}"
     },

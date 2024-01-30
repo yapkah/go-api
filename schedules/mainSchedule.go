@@ -3,10 +3,10 @@ package schedule
 import (
 	"time"
 
-	"github.com/smartblock/gta-api/pkg/base"
-	"github.com/smartblock/gta-api/service/notification_service"
-	"github.com/smartblock/gta-api/service/sales_service"
-	"github.com/smartblock/gta-api/service/trading_service"
+	"github.com/yapkah/go-api/pkg/base"
+	"github.com/yapkah/go-api/service/notification_service"
+	"github.com/yapkah/go-api/service/sales_service"
+	"github.com/yapkah/go-api/service/trading_service"
 )
 
 // const sleepTime = 1 * time.Second

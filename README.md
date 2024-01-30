@@ -5,7 +5,7 @@ Modified from repository [eddycjy/go-gin-example](https://github.com/eddycjy/go-
 # Installation
 
 ```go
-go get github.com/smartblock/gta-api
+go get github.com/yapkah/go-api
 ```
 
 # Getting Started

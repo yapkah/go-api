@@ -2,8 +2,8 @@ package v1
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/smartblock/gta-api/controllers/laliga"
-	"github.com/smartblock/gta-api/middleware/jwt"
+	"github.com/yapkah/go-api/controllers/laliga"
+	"github.com/yapkah/go-api/middleware/jwt"
 )
 
 // Laliga func

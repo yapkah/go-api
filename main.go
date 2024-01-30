@@ -9,12 +9,12 @@ import (
 
 	//"github.com/nicksnyder/go-i18n/v2/i18n"
 
-	"github.com/smartblock/gta-api/models"
-	"github.com/smartblock/gta-api/pkg/gredis"
-	"github.com/smartblock/gta-api/pkg/logging"
-	"github.com/smartblock/gta-api/pkg/setting"
-	"github.com/smartblock/gta-api/pkg/translation"
-	"github.com/smartblock/gta-api/routers"
+	"github.com/yapkah/go-api/models"
+	"github.com/yapkah/go-api/pkg/gredis"
+	"github.com/yapkah/go-api/pkg/logging"
+	"github.com/yapkah/go-api/pkg/setting"
+	"github.com/yapkah/go-api/pkg/translation"
+	"github.com/yapkah/go-api/routers"
 )
 
 func init() {
@@ -29,9 +29,9 @@ func init() {
 // @title Golang Gin API
 // @version 1.0
 // @description An example of gin
-// @termsOfService https://github.com/smartblock/gta-api
+// @termsOfService https://github.com/yapkah/go-api
 // @license.name MIT
-// @license.url https://github.com/smartblock/gta-api/blob/master/LICENSE
+// @license.url https://github.com/yapkah/go-api/blob/master/LICENSE
 func main() {
 	gin.SetMode(setting.ServerSetting.RunMode)
 

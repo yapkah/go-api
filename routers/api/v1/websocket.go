@@ -2,8 +2,8 @@ package v1
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/smartblock/gta-api/controllers/member/websocket/exchange"
-	"github.com/smartblock/gta-api/controllers/member/websocket/trading"
+	"github.com/yapkah/go-api/controllers/member/websocket/exchange"
+	"github.com/yapkah/go-api/controllers/member/websocket/trading"
 )
 
 // WebSocket func

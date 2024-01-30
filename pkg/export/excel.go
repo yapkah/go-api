@@ -1,6 +1,6 @@
 package export
 
-import "github.com/smartblock/gta-api/pkg/setting"
+import "github.com/yapkah/go-api/pkg/setting"
 
 const EXT = ".xlsx"
 

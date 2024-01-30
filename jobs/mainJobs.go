@@ -3,7 +3,7 @@ package jobs
 import (
 	"encoding/json"
 
-	"github.com/smartblock/gta-api/models"
+	"github.com/yapkah/go-api/models"
 	//"golang.org/x/text/language"
 	//"golang.org/x/text/message"
 )

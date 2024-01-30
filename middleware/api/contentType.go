@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/smartblock/gta-api/pkg/e"
-	"github.com/smartblock/gta-api/pkg/translation"
+	"github.com/yapkah/go-api/pkg/e"
+	"github.com/yapkah/go-api/pkg/translation"
 )
 
 // disable route name

@@ -3,8 +3,8 @@ package jobs
 import (
 	"net/http"
 
-	"github.com/smartblock/gta-api/models"
-	"github.com/smartblock/gta-api/pkg/e"
+	"github.com/yapkah/go-api/models"
+	"github.com/yapkah/go-api/pkg/e"
 )
 
 //"golang.org/x/text/language"

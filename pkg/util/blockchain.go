@@ -12,7 +12,7 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/smartblock/gta-api/pkg/float"
+	"github.com/yapkah/go-api/pkg/float"
 )
 
 // BaseDecimal decimal for base token

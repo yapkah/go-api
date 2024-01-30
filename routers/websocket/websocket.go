@@ -2,8 +2,8 @@ package websocket
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/smartblock/gta-api/controllers/member/websocket"
-	wsmiddleware "github.com/smartblock/gta-api/middleware/websocket"
+	"github.com/yapkah/go-api/controllers/member/websocket"
+	wsmiddleware "github.com/yapkah/go-api/middleware/websocket"
 )
 
 // InitRouter initialize routing information

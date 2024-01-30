@@ -2,17 +2,17 @@ package routers
 
 import (
 	"github.com/gin-gonic/gin"
-	_ "github.com/smartblock/gta-api/docs"
-	"github.com/smartblock/gta-api/middleware/api"
-	"github.com/smartblock/gta-api/middleware/cors"
-	"github.com/smartblock/gta-api/middleware/websocket"
-	v1 "github.com/smartblock/gta-api/routers/api/v1"
+	_ "github.com/yapkah/go-api/docs"
+	"github.com/yapkah/go-api/middleware/api"
+	"github.com/yapkah/go-api/middleware/cors"
+	"github.com/yapkah/go-api/middleware/websocket"
+	v1 "github.com/yapkah/go-api/routers/api/v1"
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
 
-	// "github.com/smartblock/gta-api/controllers/token"
+	// "github.com/yapkah/go-api/controllers/token"
 
-	"github.com/smartblock/gta-api/controllers/koo"
+	"github.com/yapkah/go-api/controllers/koo"
 )
 
 // InitRouter initialize routing information

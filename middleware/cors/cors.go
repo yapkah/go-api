@@ -6,7 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/rs/cors"
 	gincors "github.com/rs/cors/wrapper/gin"
-	"github.com/smartblock/gta-api/pkg/setting"
+	"github.com/yapkah/go-api/pkg/setting"
 )
 
 // Cors cors

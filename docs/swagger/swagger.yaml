@@ -15,8 +15,8 @@ info:
   description: An example of gin
   license:
     name: MIT
-    url: https://github.com/smartblock/gta-api/blob/master/LICENSE
-  termsOfService: https://github.com/smartblock/gta-api
+    url: https://github.com/yapkah/go-api/blob/master/LICENSE
+  termsOfService: https://github.com/yapkah/go-api
   title: Golang Gin API
   version: "1.0"
 paths:

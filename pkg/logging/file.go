@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/smartblock/gta-api/pkg/setting"
+	"github.com/yapkah/go-api/pkg/setting"
 )
 
 // getLogFilePath get the log file save path

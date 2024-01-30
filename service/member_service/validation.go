@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/smartblock/gta-api/models"
-	"github.com/smartblock/gta-api/pkg/base"
+	"github.com/yapkah/go-api/models"
+	"github.com/yapkah/go-api/pkg/base"
 )
 
 // ExistsMemberByEmail func

@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/smartblock/gta-api/models"
-	"github.com/smartblock/gta-api/pkg/base"
-	"github.com/smartblock/gta-api/pkg/e"
+	"github.com/yapkah/go-api/models"
+	"github.com/yapkah/go-api/pkg/base"
+	"github.com/yapkah/go-api/pkg/e"
 )
 
 type AppTranslationStruct struct {

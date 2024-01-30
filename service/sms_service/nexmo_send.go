@@ -3,9 +3,9 @@ package sms_service
 import (
 	"encoding/json"
 
-	"github.com/smartblock/gta-api/helpers"
-	"github.com/smartblock/gta-api/models"
-	"github.com/smartblock/gta-api/pkg/base"
+	"github.com/yapkah/go-api/helpers"
+	"github.com/yapkah/go-api/models"
+	"github.com/yapkah/go-api/pkg/base"
 )
 
 // DigitalMediaResponse struct

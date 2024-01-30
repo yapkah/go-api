@@ -3,7 +3,7 @@ package trading_service
 import (
 	"encoding/json"
 
-	"github.com/smartblock/gta-api/pkg/base"
+	"github.com/yapkah/go-api/pkg/base"
 )
 
 // SysTradingApiPlatformSetting struct

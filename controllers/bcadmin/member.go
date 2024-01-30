@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/smartblock/gta-api/pkg/app"
-	"github.com/smartblock/gta-api/service/member_service"
+	"github.com/yapkah/go-api/pkg/app"
+	"github.com/yapkah/go-api/service/member_service"
 )
 
 // SearchMemberInfoForBCAdminForm struct

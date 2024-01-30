@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/smartblock/gta-api/models"
-	"github.com/smartblock/gta-api/pkg/setting"
+	"github.com/yapkah/go-api/models"
+	"github.com/yapkah/go-api/pkg/setting"
 )
 
 // var wsupgrader = websocket.Upgrader{

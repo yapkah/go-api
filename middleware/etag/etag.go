@@ -6,10 +6,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/smartblock/gta-api/pkg/app"
-	"github.com/smartblock/gta-api/pkg/e"
-	"github.com/smartblock/gta-api/pkg/translation"
-	"github.com/smartblock/gta-api/pkg/util"
+	"github.com/yapkah/go-api/pkg/app"
+	"github.com/yapkah/go-api/pkg/e"
+	"github.com/yapkah/go-api/pkg/translation"
+	"github.com/yapkah/go-api/pkg/util"
 )
 
 // Etag check if non match e-tag

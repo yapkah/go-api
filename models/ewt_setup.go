@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/jinzhu/gorm"
-	"github.com/smartblock/gta-api/pkg/e"
+	"github.com/yapkah/go-api/pkg/e"
 )
 
 // EwtSetup struct

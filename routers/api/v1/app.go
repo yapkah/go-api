@@ -2,15 +2,15 @@ package v1
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/smartblock/gta-api/controllers/member"
-	"github.com/smartblock/gta-api/controllers/member/event"
-	"github.com/smartblock/gta-api/controllers/member/membership"
-	"github.com/smartblock/gta-api/controllers/member/product"
-	"github.com/smartblock/gta-api/controllers/member/report"
-	"github.com/smartblock/gta-api/controllers/member/trading"
-	"github.com/smartblock/gta-api/controllers/member/wallet"
-	"github.com/smartblock/gta-api/middleware/api"
-	"github.com/smartblock/gta-api/middleware/jwt"
+	"github.com/yapkah/go-api/controllers/member"
+	"github.com/yapkah/go-api/controllers/member/event"
+	"github.com/yapkah/go-api/controllers/member/membership"
+	"github.com/yapkah/go-api/controllers/member/product"
+	"github.com/yapkah/go-api/controllers/member/report"
+	"github.com/yapkah/go-api/controllers/member/trading"
+	"github.com/yapkah/go-api/controllers/member/wallet"
+	"github.com/yapkah/go-api/middleware/api"
+	"github.com/yapkah/go-api/middleware/jwt"
 )
 
 // App func

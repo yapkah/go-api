@@ -5,10 +5,10 @@ package sms_service
 
 // 	"fmt"
 
-// 	"github.com/smartblock/gta-api/helpers"
-// 	"github.com/smartblock/gta-api/models"
-// 	"github.com/smartblock/gta-api/pkg/base"
-// 	"github.com/smartblock/gta-api/pkg/util"
+// 	"github.com/yapkah/go-api/helpers"
+// 	"github.com/yapkah/go-api/models"
+// 	"github.com/yapkah/go-api/pkg/base"
+// 	"github.com/yapkah/go-api/pkg/util"
 // )
 
 // // DigitalMediaResponse struct

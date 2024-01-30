@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/smartblock/gta-api/pkg/app"
-	"github.com/smartblock/gta-api/pkg/base"
+	"github.com/yapkah/go-api/pkg/app"
+	"github.com/yapkah/go-api/pkg/base"
 )
 
 type ProcessPNFrom struct {

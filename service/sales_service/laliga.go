@@ -9,12 +9,12 @@ import (
 	"strings"
 
 	"github.com/jinzhu/gorm"
-	"github.com/smartblock/gta-api/helpers"
-	"github.com/smartblock/gta-api/models"
-	"github.com/smartblock/gta-api/pkg/base"
-	"github.com/smartblock/gta-api/pkg/e"
-	"github.com/smartblock/gta-api/service/member_service"
-	"github.com/smartblock/gta-api/service/wallet_service"
+	"github.com/yapkah/go-api/helpers"
+	"github.com/yapkah/go-api/models"
+	"github.com/yapkah/go-api/pkg/base"
+	"github.com/yapkah/go-api/pkg/e"
+	"github.com/yapkah/go-api/service/member_service"
+	"github.com/yapkah/go-api/service/wallet_service"
 )
 
 type ProcessSaveTransv1Struct struct {

@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/smartblock/gta-api/models"
-	"github.com/smartblock/gta-api/pkg/e"
+	"github.com/yapkah/go-api/models"
+	"github.com/yapkah/go-api/pkg/e"
 )
 
 // CheckScopeOr is jwt scope middleware

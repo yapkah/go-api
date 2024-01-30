@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/smartblock/gta-api/models"
-	"github.com/smartblock/gta-api/pkg/base"
-	"github.com/smartblock/gta-api/service/language_service"
+	"github.com/yapkah/go-api/models"
+	"github.com/yapkah/go-api/pkg/base"
+	"github.com/yapkah/go-api/service/language_service"
 )
 
 // p.s. This middleware check manage the member language by device

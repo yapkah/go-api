@@ -8,10 +8,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/smartblock/gta-api/pkg/file"
-	"github.com/smartblock/gta-api/pkg/logging"
-	"github.com/smartblock/gta-api/pkg/setting"
-	"github.com/smartblock/gta-api/pkg/util"
+	"github.com/yapkah/go-api/pkg/file"
+	"github.com/yapkah/go-api/pkg/logging"
+	"github.com/yapkah/go-api/pkg/setting"
+	"github.com/yapkah/go-api/pkg/util"
 )
 
 // GetImageFullUrl get the full access path
